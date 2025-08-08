@@ -1,0 +1,14 @@
+[build]
+  publish = "public"
+  command = "mkdir -p public && cp -r index.html _redirects public/"
+
+[[redirects]]
+  from = "/app/*"
+  to = "https://share.streamlit.io/YOUR_USERNAME/project-management-sqlite-2/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

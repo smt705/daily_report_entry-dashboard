@@ -1,0 +1,8 @@
+# Redirect /app/entry to the Streamlit entry app
+/app/entry/*  https://share.streamlit.io/YOUR_USERNAME/project-management-sqlite-2/streamlit_entry.py/:splat  200!
+
+# Redirect /app/dashboard to the Streamlit dashboard app
+/app/dashboard/*  https://share.streamlit.io/YOUR_USERNAME/project-management-sqlite-2/streamlit_dashboard_sqlite.py/:splat  200!
+
+# Fallback: redirect all other paths to index.html
+/*  /index.html  200

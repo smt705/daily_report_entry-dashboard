@@ -1,0 +1,63 @@
+{
+  "project_name": "Transmission Line Upgrade - Section 5",
+  "report_date": "2025-08-08",
+  "prepared_by": "somethy",
+  "weather": "Sunny 32 Celsius light wind.",
+  "site_conditions": "Ground is dry, ccess roads are clear.",
+  "general_notes": "General notes.",
+  "manpower": [
+    {
+      "trade": "trade 1",
+      "number_of_workers": 2,
+      "hours_worked": 8
+    },
+    {
+      "trade": "trade 2",
+      "number_of_workers": 2,
+      "hours_worked": 8
+    }
+  ],
+  "equipment": [
+    {
+      "equipment_name": "equipment 1",
+      "quantity": 2,
+      "hours_used": 8
+    },
+    {
+      "equipment_name": "equipment 2",
+      "quantity": 2,
+      "hours_used": 8
+    }
+  ],
+  "activities": [
+    {
+      "activity_description": "work activity 1",
+      "status": "In Progress",
+      "percent_complete": null,
+      "notes": null
+    },
+    {
+      "activity_description": "work activity ",
+      "status": "In Progress",
+      "percent_complete": null,
+      "notes": null
+    }
+  ],
+  "materials": [
+    {
+      "material_name": "material 1",
+      "quantity": 2,
+      "unit": "unit1",
+      "supplier": "supplier1",
+      "ticket_number": "ticket1"
+    },
+    {
+      "material_name": "material 2",
+      "quantity": 2,
+      "unit": "unit2",
+      "supplier": "supplier2",
+      "ticket_number": "ticket2"
+    }
+  ],
+  "saved_at": "2025-08-08T08:24:42.936546Z"
+}
